@@ -1,0 +1,24 @@
+ Segundo Momento Angular e Energia: Tanto o segundo momento angular (SMA)
+quanto a energia usam Pi,j como pesos. Valores elevados de SMA ou energia ocorrem
+quando a imagem está muito ordenada.
+ Contraste: É uma estimativa das variações locais ao quadrado dos níveis de cinza
+entre pares de pixels. Esta medida é também chamada de soma do quadrado da
+variância. Medidas relacionadas a contraste usam pesos relacionados com a distância da
+diagonal da Matriz de Co-ocorrência. Valores na diagonal da Matriz de Co-ocorrência
+representam pouco contraste, aumentando quando a distância da diagonal aumenta.
+ Correlação: O coeficiente de correlação utilizado em estatística é uma medida do grau
+de associação linear (negativa ou positiva) entre duas variáveis quantitativas. A
+correlação em textura mede a dependência linear de pixels em relação a sua vizinhança.
+ Variância: A variância quando utilizada na textura executa a mesma tarefa que a
+variância utilizada na estatística descritiva. Ela baseia-se na dispersão dos dados
+numéricos em torno de um valor médio, de valores dentro da Matriz de Co-ocorrência.
+Entretanto, a variância da Matriz de Co-ocorrência, trata especificamente das
+combinações do pixel de referência e do seu vizinho. Então, isso não é o mesmo que a
+simples variância de níveis de cinza na imagem original.
+ Homogeneidade: Os valores dos pesos da homogeneidade são inversamente
+proporcionais aos pesos do contraste, com pesos diminuindo exponencialmente quanto
+mais distantes da diagonal. Dissimilaridade e contraste resultam em grandes valores
+para imagens compostas principalmente por níveis de cinza diferentes (por exemplo,
+brancos e pretos), enquanto que a homogeneidade resulta em grandes valores para
+níveis de cinza similares. Se os pesos diminuem distantes da diagonal, o resultado será
+maior para imagens com pouco contraste.
